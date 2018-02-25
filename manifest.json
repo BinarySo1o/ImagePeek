@@ -1,8 +1,14 @@
 {
 	"manifest_version": 2,
 	"name": "Image Peek",
+	"short_name": "imgpeek",
 	"description": "Opens a Google image search result in a new tab, much like 'view image' used to do. Expand the image preview, then click the icon!",
-	"version": "1.0",
+	"version": "1.1",
+	
+	"icons": {
+		"128": "icon_128.png"
+	},
+	
 	"background": {
 		"scripts": [
 			"eventPage.js"
